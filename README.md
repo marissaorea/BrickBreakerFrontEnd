@@ -5,7 +5,7 @@ Play by using the paddle in order to keep the ball in the game & hit the bricks.
 ## Credits:
 Marissa Orea & Michael Schwartz
 
-##Demo Link:
+## Demo Link:
 [Brick Breaker Game Live](https://aqueous-wave-97981.herokuapp.com/)
 
 ## Technology Stack
