@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
           dy = -dy;
         }
         else {
-          fetch(`http://localhost:3000/api/v1/players`, {
+          fetch(`https://brick-break.herokuapp.com/api/v1/players`, {
             method: 'POST',
             headers: {
               'Accept': 'application/json',
