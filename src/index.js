@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const highScore = document.getElementById('high')
     let highScoreCount = 1
 
-    fetch('https://localhost:3000/api/v1/players')
+    fetch('https://brick-break.herokuapp.com/api/v1/players')
       .then(resp => resp.json())
       .then(parsedResp => {
         setHighScores(parsedResp)
